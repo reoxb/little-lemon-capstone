@@ -1,0 +1,56 @@
+# Pattern Image
+
+This directory contains the pattern image used for background textures in the Little Lemon website.
+
+## Files
+- `pattern.svg`: A scalable vector graphic pattern that can be used as a subtle background texture
+- `pattern.png`: A rasterized version of the pattern for better browser compatibility
+- `README.md`: A guide to creating and using the pattern image
+
+## Usage
+
+The pattern is used in CSS as a background image with low opacity to create a subtle textured effect.
+
+Example CSS:
+```css
+.element {
+  background-image: url('images/pattern.png');
+  background-repeat: repeat;
+  opacity: 0.05;
+}
+```
+
+## Regenerating the PNG
+
+If you need to regenerate the PNG file from the SVG:
+1. Open the SVG in an image editor
+2. Export as PNG with transparent background
+3. Save as `pattern.png` in this directory
+
+## Customization
+
+To change the pattern:
+1. Edit the `pattern.svg` file
+2. Update the colors and shapes as needed
+3. Regenerate the PNG if necessary
+4. Update the CSS opacity values to achieve the desired effect
+
+## README
+
+This is a placeholder pattern image. In a real application, you would replace this with an actual pattern image.
+
+To create a pattern image:
+1. Create a small image (e.g., 10x10px or 20x20px) with a subtle pattern
+2. Save it as a transparent PNG
+3. Use it in your CSS with background-repeat: repeat
+
+Example CSS:
+```css
+.element {
+  background-image: url('/images/pattern.png');
+  background-repeat: repeat;
+  opacity: 0.05;
+}
+```
+
+For now, this file serves as a placeholder to prevent build errors.

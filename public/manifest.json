@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Little Lemon",
+  "name": "Little Lemon - Mediterranean Restaurant",
+  "description": "Experience authentic Mediterranean cuisine with a modern twist at Little Lemon, a family-owned restaurant in Chicago.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +9,67 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "images/Logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "images/Logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#F4CE14",
+  "background_color": "#FFFFFF",
+  "orientation": "portrait-primary",
+  "categories": ["food", "restaurant", "mediterranean"],
+  "screenshots": [
+    {
+      "src": "images/screenshot1.jpg",
+      "type": "image/jpeg",
+      "sizes": "1080x1920",
+      "form_factor": "narrow",
+      "label": "Little Lemon Home Screen"
+    },
+    {
+      "src": "images/screenshot2.jpg",
+      "type": "image/jpeg",
+      "sizes": "1920x1080",
+      "form_factor": "wide",
+      "label": "Little Lemon Menu"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Our Menu",
+      "short_name": "Menu",
+      "description": "Browse our delicious Mediterranean dishes",
+      "url": "/menu",
+      "icons": [{ "src": "images/menu-icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Make a Reservation",
+      "short_name": "Reserve",
+      "description": "Book a table at our restaurant",
+      "url": "/reservations",
+      "icons": [{ "src": "images/reservation-icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Order Online",
+      "short_name": "Order",
+      "description": "Order food for delivery or pickup",
+      "url": "/order-online",
+      "icons": [{ "src": "images/order-icon.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "scope": "/",
+  "id": "/",
+  "dir": "ltr",
+  "lang": "en-US"
 }
